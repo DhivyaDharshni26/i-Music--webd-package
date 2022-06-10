@@ -1,0 +1,105 @@
+#section1 .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    margin-left: 450px;
+    margin-top: 50px;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: 0.2em;
+  }
+  
+  .button1 {
+    background-color: black; 
+    color: black; 
+    border: 2px solid  #de6e7e;
+  }
+  
+  .button1:hover {
+    background-color:  #de6e7e;
+  }
+  #section2 .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    margin-left: 450px;
+    margin-top: 50px;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: 0.2em;
+
+  }
+
+  .button2 {
+    background-color:  #de6e7e;
+    color: black; 
+    border: 2px solid  #de6e7e;
+  }
+  
+  .button2:hover {
+    background-color: black
+  }
+  #section3 .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    margin-left: 450px;
+    margin-top: 50px;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: 0.2em;
+
+  }
+  .button3 {
+    background-color: black; 
+    color: black; 
+    border: 2px solid  #de6e7e;
+  }
+  
+  .button3:hover {
+    background-color:  #de6e7e;
+  }
+  #section4 .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    margin-left: 450px;
+    margin-top: 50px;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: 0.2em;
+
+  }
+  .button4 {
+    background-color:  #de6e7e;
+    color: black; 
+    border: 2px solid  #de6e7e;
+  }
+  
+  .button4:hover {
+    background-color: black
+  }

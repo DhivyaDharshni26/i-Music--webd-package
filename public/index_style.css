@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+    background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    height: 100vh;
+}
+#login{
+    align-items: center;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin-top: 250px;
+  margin-left: 700px;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+#mylink{
+			font-size:20px;
+            font-family:'Khula';
+		}
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a:hover, a:active {
+  background-color: #de6e7e;
+}
+
+#button{
+background-color: #de6e7e; 
+		border: none;
+		cursor: pointer;
+		color: white;
+		text-align: center;
+		display: inline-block;
+		font-size: 15px;
+		padding: 10px;
+		font-family: 'Khula';
+}
+
+  
+  button:hover, button:active {
+    background-color: black;
+  }		
