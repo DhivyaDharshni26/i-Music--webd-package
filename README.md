@@ -1,3 +1,3 @@
 # i-Music 
 
-This project is primariy developed using HTML, CSS, Bootstrap, Javascript and NodeJS
+This project is primarily developed using HTML, CSS, Bootstrap, Javascript and NodeJS
