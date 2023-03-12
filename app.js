@@ -52,7 +52,6 @@ app.post('/login', async (req, res) => {
     
             const passwordMatch = await bcrypt.compare(submittedPass, storedPass);
             if (passwordMatch) {
-                let usrname = foundUser.username;
                 res.redirect('/home.html');
             } else {
             res.send("<div align ='center'><h2>Invalid email or password</h2></div><br><br><div align ='center'><a href='#'>login again</a></div>");
