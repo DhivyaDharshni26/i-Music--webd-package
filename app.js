@@ -34,7 +34,6 @@ app.post('/register', async (req, res) => {
             console.log('User list', users);
             res.redirect('./home.html');
     
-           // res.send("<div align ='center'><h2>Registration successful</h2></div><br><br><div align='center'><a href='./login.html'>login</a></div><br><br><div align='center'><a href='./registration.html'>Register another user</a></div>");
         } else {
             res.send("<div align ='center'><h2>Email already used</h2></div><br><br><div align='center'><a href='./registration.html'>Register again</a></div>");
         }
@@ -55,7 +54,6 @@ app.post('/login', async (req, res) => {
             if (passwordMatch) {
                 let usrname = foundUser.username;
                 res.redirect('/home.html');
-                //res.send(`<div align ='center'><h2>login successful</h2></div><br><br><br><div align ='center'><h3>Hello ${usrname}</h3></div><br><br><div align='center'><a href='./login.html'>logout</a></div>`);
             } else {
             res.send("<div align ='center'><h2>Invalid email or password</h2></div><br><br><div align ='center'><a href='#'>login again</a></div>");
             }
