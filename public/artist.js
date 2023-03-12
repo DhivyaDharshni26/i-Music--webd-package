@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	const $cont = $('.cont');
 	const $slider = $('.slider');
 	const $nav = $('.nav');
 	const winW = $(window).width();
